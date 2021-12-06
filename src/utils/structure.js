@@ -16,7 +16,7 @@ const displayTask = () => {
     localStorage.setItem('itemsLocal', JSON.stringify(items));
     render();
   });
-  const clearElement = document.createElement('p');
+  const clearElement = document.createElement('button');
   clearElement.className = 'clear';
   clearElement.innerText = 'Clear all completed';
   container.appendChild(clearElement);
